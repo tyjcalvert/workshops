@@ -27,7 +27,7 @@
       delegate_to: localhost
 
     - name: add project to aap
-      aap_project:
+      tower_project:
         name: SNOW_CL
         local_path: snow_demo
         organization: Default
